@@ -1,0 +1,106 @@
+#nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+#nav ul li {
+  padding: 20px;
+}
+#nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav a:hover {
+}
+#Aboutme .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: #ffe4e1;
+  border-radius: 10px;
+}
+
+#Aboutme h1 {
+  margin-bottom: 0;
+}
+#Aboutme h2 {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 25px;
+}
+#Aboutme .avatar img {
+  width: auto;
+  height: 50%;
+  border-radius: 50%;
+  align-self: center;
+  box-shadow: gray;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td,
+td {
+  padding: 10px;
+}
+#languages {
+  display: flex;
+  justify-content: center;
+  background: #ffe4e1;
+  border-radius: 10px;
+}
+.list_logo img {
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+}
+#education .container {
+  text-align: center;
+  background: #ffe4e1;
+  border-radius: 10px;
+}
+#education table {
+  align-content: center;
+  margin: 0 auto;
+}
+#languages h1 {
+  text-align: center;
+}
+#languages img {
+  border-radius: 10px;
+}
+#contact {
+  background: #ffe4e1;
+  box-shadow: gray;
+  border-radius: 10px;
+}
+#contact input {
+  font-size: 16px;
+  border-radius: 5px;
+}
+#submit:hover {
+  cursor: pointer;
+}
+#nav li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#submit {
+  background-color: lightcoral;
+  border-radius: 10px;
+  color: #fff;
+}
+footer {
+  background: #343a40;
+  padding: 12px;
+  color: #fff;
+}

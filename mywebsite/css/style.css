@@ -1,0 +1,23 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:whitesmoke;
+}
+#nav{
+    background-color:rosybrown;
+}
+#nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0cm;
+    display: inline;
+}
+#nav ul li{
+    padding: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
